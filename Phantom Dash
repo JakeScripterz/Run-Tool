@@ -1,6 +1,6 @@
 
 local tool = Instance.new("Tool")
-    tool.Name = "Phantom Dash"
+    tool.Name = "Fast Sprint"
 
     tool.Parent = game.Players.LocalPlayer.Backpack
     tool.RequiresHandle = false
@@ -11,7 +11,7 @@ local tool = Instance.new("Tool")
     local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
     local humanoid = character:WaitForChild("Humanoid")
     local runService = game:GetService("RunService")
-    local movementSpeed = 125
+    local movementSpeed = 160
 
     local animation = Instance.new("Animation")
     animation.AnimationId = "rbxassetid://18897115785" 
